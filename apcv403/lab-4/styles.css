@@ -1,19 +1,29 @@
 body{
-    background-color: #ffffff;
-    margin: 0 20%;
+    background-image: linear-gradient(turquoise, white, turquoise);
+    margin: 0 15%;
     font-family: sans-serif;
+}
+
+main{
+    background-color: white;
+    padding: 0 5% 1%;
+    border-radius: 5%;
 }
 
 h1{
     text-align: center;
-    font-weight: normal;
+    font-family: "Cabin", sans-serif;
+    font-weight: bold;
+    font-size: 2.7rem;
     text-transform: uppercase;
-    margin-top: 20px;
+    padding-top: 20px;
 }
 
 h5{
     text-align: center;
+    font-family: "Assistant", sans-serif;
     font-weight: bold;
+    font-size: 1.4rem;
     text-transform: uppercase;
     padding-bottom: 5px;
     border-bottom: 3px solid #000000;
@@ -21,38 +31,48 @@ h5{
 
 h2{
     text-align: left;
+    font-family: "Cabin", sans-serif;
     font-weight: bold;
+    font-size: 28px;
     text-transform: uppercase;
     border-bottom: 2px solid #000000;
-    margin-top: 20px;
 }
 
+div{
+    margin-bottom: 3%;
+}
 .statement{
-    font-size: 18px;
-}
-
-h3{
-    font-weight: bold;
-    font-size: 20px;
-}
-
-h4{
-    font-weight: normal;
+    font-family: "Overpass", sans-serif;
+    font-size: 22px;
+    margin: 0 6%;
 }
 
 dt{
+    font-family: "Cabin", sans-serif;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+dd{
+     font-family: "Cabin", sans-serif;
+     font-style: italic;
+     font-size: 22px;
+     padding-bottom: 7px;
 }
 
 .education-list{
+    font-family: "Overpass", sans-serif;
     font-weight: normal;
+    font-size: 22px;
     padding-bottom: 5px;
+    margin: 0 5%;
 }
 
 li{
+    font-family: "Cabin", sans-serif;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 25px;
 }
 
 div{
@@ -61,8 +81,11 @@ div{
 }
 
 .work-list{
+    font-family: "Overpass", sans-serif;
     font-weight: normal;
+    font-size: 22px;
     padding-bottom: 5px;
+    margin: 0 3%;
 }
 
 #resume{
@@ -82,10 +105,18 @@ div{
 }
 
 .addendum-content{
+    font-family: "Overpass", sans-serif;
     text-align: left;
     font-size: 20px;
     margin-left: 90px;
     margin-right: 90px;
     margin-bottom: 30px;
     line-height: 1.3;
+}
+
+footer{
+    font-size: 1.3rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    margin-left: 40px;
 }
